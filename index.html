@@ -7,17 +7,24 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   
   <!-- UIKit Links -->
-  <link href="../uikit/css/uikit.min.css" rel="stylesheet">
-  <script src="../uikit/js/uikit.min.js"></script>
-  <script src="../uikit/js/uikit-icons.min.js"></script>
+  <link href="../css/uikit.min.css" rel="stylesheet">
+  <script src="../js/uikit.min.js"></script>
+  <script src="../js/uikit-icons.min.js"></script>
 
   <!-- JQuery -->
-  <script src="../jquery/jquery-3.2.1.min.js"></script>
+  <script src="../js/jquery-3.2.1.min.js"></script>
+
+  <!-- FitText -->
+  <script src="../js/jquery.fittext.js"></script>
 
   <title>Logan Buchanan</title>
   
+  <script>
+  jQuery("#responsive_headline").fitText();
+</script>
+
 </head>
 <body>
-<h1>Hello World!</h1>
+<h1 id="responsive_headline">Hello World!</h1>
 </body>
 </html>
