@@ -33,6 +33,15 @@
 	margin-right:0;
 }
 
+.email-button{
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+	width:40%;
+	min-width: 20em;
+
+}
+
 @media(max-width:500px){
 
 	#responsive_headline{
