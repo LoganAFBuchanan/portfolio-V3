@@ -1,0 +1,46 @@
+#responsive_headline{
+
+	display:block;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10vh;
+
+}
+
+.full-header{
+
+	height:100vh;
+
+}
+
+.grid-container{
+
+	padding-left:0;
+
+}
+
+.uk-card-default a.card-link{
+	color:#000000;
+}
+
+.uk-card-default a.card-link:hover{
+	color:#000000;
+	text-decoration:underline;
+}
+
+.uk-grid{
+	margin-right:0;
+}
+
+@media(max-width:500px){
+
+	#responsive_headline{
+		font-size:2em;
+		
+	}
+
+	h2{
+		font-size: 1em;
+	}
+}

@@ -1,45 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="uk-section-primary">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   
-  <!-- UIKit Links -->
-  <link href="./css/uikit.min.css" rel="stylesheet">
-  <script src="./js/uikit.min.js"></script>
-  <script src="./js/uikit-icons.min.js"></script>
-
   <!-- JQuery -->
   <script src="./js/jquery-3.2.1.min.js"></script>
 
+  <!-- UIKit Links -->
+  <link href="./css/uikit.min.css" rel="stylesheet">
+  <link href="./css/uikit-rtl.min.css" rel="stylesheet">
+  <script src="./js/uikit.min.js"></script>
+  <script src="./js/uikit-icons.min.js"></script>
+
   <!-- FitText -->
   <script src="./js/jquery.fittext.js"></script>
+
+  <!-- Overriding CSS -->
+  <link href="./css/stylesheet.css" rel="stylesheet">
 
   <title>Logan Buchanan</title>
   
 
 </head>
-<body>
+<body class="uk-section-primary">
 
-	<div class="uk-section uk-section-primary">
-		<div class="uk-container-expand uk-margin-large-left">
-		<h2 id="responsive_headline" class="" >Hello!</h2>
-		<h3>I'm a Web developer/designer from Vancouver, Canada.</h3>
+	
+	<div class="uk-container uk-container-expand">
+		<h1 id="responsive_headline" class="" >Hello!</h1>
+		
+		<h2 class="uk-text-center">
+			I'm currently re-building my portfolio,<br>
+			but in the mean time why not check out one of my projects!
+		</h2>
+		
+		
 	</div>
+	<div class="uk-container uk-container-small uk-margin-medium-top ">
+			<div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+				<div class="">
+					<div class="uk-card uk-card-default uk-card-body">
+						<h3 class="uk-card-title uk-text-center"><a class="card-link" href="www.isleofvodya.com">Isle of Vodya</a></h3>
+						<p class="uk-text-center">This is a Campaign Companion site for two 5th Edition Dungeons & Dragons games I am running right now.</p>
+					</div>
+				</div>
+				<div class="">
+					<div class="uk-card uk-card-default uk-card-body">
+						<h3 class="uk-card-title uk-text-center"><a class="card-link" href="http://beedie.sfu.ca/ccie/">Charles Chang Institute</a></h3>
+						<p class="uk-text-center">A site that outlines all of the offerings of the Charles Chang Institute for Innovation & Entreprenuership. Built under a tight deadline, with a small team of two.</p>
+					</div>
+				</div>
+			</div>
 	</div>
 
-	<div class="uk-section uk-section-default">
-		<h2>New Section</h2>
+	<div class="uk-container uk-container-small uk-margin-medium-top ">
+		<h2 class="uk-text-center">Or drop me line!</h2>
+
+		<a class
+
 	</div>
+	
+	
+
 
 </body>
 
 
 
 <script>
-  jQuery("#responsive_headline").fitText(1.3);
+  jQuery("#responsive_headline").fitText(0.9, { minFontSize: '84px', maxFontSize: '4000px' });
 </script>
 
 </html>
