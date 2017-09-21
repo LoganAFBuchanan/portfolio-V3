@@ -42,7 +42,11 @@
 
 }
 
-@media(max-width:500px){
+#resume-link{
+	color:#d6d6d6;
+}
+
+@media(max-width:650px){
 
 	#responsive_headline{
 		font-size:2em;
